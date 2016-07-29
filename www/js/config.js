@@ -77,3 +77,9 @@ config.detailLabels = [
 config.fixCountryFilter = false;
 config.locationCoarseTimeout = 15000;
 config.geoJSONCountriesFile = "countries.geojson";
+
+
+StatusBar.show();
+StatusBar.overlaysWebView(false);
+StatusBar.styleLightContent();
+StatusBar.backgroundColorByHexString("#000000");

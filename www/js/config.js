@@ -26,7 +26,10 @@ config.appTitle = "Travel FAQ";
 config.appInternalVersion = "2.4.0";
 config.tabletMode = config.checkTabletMode();//config.getDeviceType();
 config.defaultCountryCode = 'CN';
-config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly sync with server to get the latest Travel FAQ data.';
+//config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly sync with server to get the latest Travel FAQ data.';
+
+config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly tap the top right corner Gear then Update to get the latest Travel FAQ data.';
+ 
 
 config.localDBVersionKey = "tfaq.data.version";
 config.localDBName = "TravelFAQData";

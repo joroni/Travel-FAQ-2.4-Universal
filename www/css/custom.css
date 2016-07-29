@@ -43,6 +43,19 @@ html, body {
 }
 */
 
+	
+
+#ios7-statusbar-fix {
+    width:100%;
+    height:20px;
+    background-color:#000;
+    position:fixed;
+    z-index:10000;
+    margin-top:-20px;
+    display:none;
+}
+
+
 #status-bar {
 	position:absolute;
 	top:0;

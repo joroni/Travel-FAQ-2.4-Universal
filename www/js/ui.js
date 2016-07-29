@@ -14,6 +14,12 @@ var appUI = new Object();
 
 appUI.blocked = false;
 
+
+if (navigator.userAgent.match(/(iPad.*|iPhone.*|iPod.*);.*CPU.*OS 7_\d/i)) {
+        document.body.style.marginTop = '20px';
+        document.getElementById('ios7-statusbar-fix').style.display = 'block';
+}
+
 appUI.slideCountries = function() {
 	if (appUI.blocked) return;
 	$("#listPanel").panel("toggle");

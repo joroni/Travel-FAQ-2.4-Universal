@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ko.travelfaq" versionCode="24" version="2.4.0">
 	<!-- versionCode is optional and Android only -->
 	<name>Travel FAQ</name>
-	<description>TCCC Travel FAQ</description>
+	<description>TCCC Travel FAQ for iOS</description>
 
     <author email="" href="http://phonegap.com">GSS Manila COE</author>
     <preference name="permissions" value="none" />
@@ -13,6 +13,9 @@
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#000000" />
+	<preference name="StatusBarStyle" value="lightcontent" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />

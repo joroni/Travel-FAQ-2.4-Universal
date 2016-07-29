@@ -51,8 +51,10 @@ html, body {
     background-color:#000;
     position:fixed;
     z-index:10000;
-    margin-top:-20px;
-    display:none;
+    /*margin-top:-20px;
+    display:none;*/
+	margin-top:-5px;
+	display:block;
 }
 
 

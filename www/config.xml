@@ -68,12 +68,16 @@
     <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
 	
+		  <feature name="StatusBar">
+            <param name="ios-package" value="CDVStatusBar" onload="true" />
+     </feature>
+	
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
-    <true/>
+    <false/>
 	</gap:config-file>
  
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
-		<false/>
+		<true/>
 	</gap:config-file>
 
 

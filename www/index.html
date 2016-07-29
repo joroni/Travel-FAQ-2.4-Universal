@@ -195,6 +195,7 @@
 		<div style="display:none;" class="device-type" id="deviceType">
 
 		<script type="text/javascript" src="cordova.js"></script>
+        
 		<script type="text/javascript" src="js/config.js"></script>
 		<script type="text/javascript" src="js/utils.js"></script>
 		<script type="text/javascript" src="js/remote_store.js"></script>
@@ -210,5 +211,13 @@
 				app.initialize();
 			});
 		</script>
+        
+        <script>
+        StatusBar.show();
+StatusBar.overlaysWebView(false);
+StatusBar.styleLightContent();
+StatusBar.backgroundColorByHexString("#000000");
+        
+        </script>
     </body>
 </html>
